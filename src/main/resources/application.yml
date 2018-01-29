@@ -1,6 +1,16 @@
 
+
 #logging:
 #  pattern:
 #    console: "%d - %msg%n"
 #    file: /xxx/xxx.log
 #    level: debug
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: luxd5657
+    url: jdbc:mysql:///sell?characterEncoding=utf-8&useSSL=false
+  jpa:
+    show-sql: true
