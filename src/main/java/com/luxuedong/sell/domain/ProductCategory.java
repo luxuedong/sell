@@ -8,6 +8,7 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 
 /**
+ * 类目
  * Created by luxuedong
  * 2018/1/25 上午10:45
  */
